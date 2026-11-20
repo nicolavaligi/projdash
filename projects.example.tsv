@@ -1,0 +1,18 @@
+# projdash example registry - invented projects, safe to share.
+# Try it:  projdash --db projects.example.tsv
+#
+# Fields (TAB-separated, 12):
+# id	name	category	status	progress	priority	path	url	next_step	updated	notes	hidden
+
+invoice-parser	Invoice parser	tool	active	60	1	~/code/invoice-parser		Handle multi-page PDF invoices	2026-11-18	Extracts totals and VAT lines from supplier PDFs
+recipe-app	Recipe box app	mobile	blocked	45	1	~/code/recipe-app		Wait for the app store review, then fix feedback	2026-11-03	Blocked on store review
+garden-sensors	Garden sensor logger	hardware	active	35	2	~/code/garden-sensors		Calibrate the soil moisture probe	2026-10-28
+bakery-site	Bakery website	web	live	100	2	~/code/bakery-site	https://bakery.example.com	Add the Christmas menu page	2026-11-12	Static site, deployed from the main branch
+
+# Things that are waiting
+photo-archive	Family photo archive	personal	paused	20	3	~/code/photo-archive		Pick a deduplication strategy	2026-09-14
+newsletter	Monthly newsletter	writing	idea	0	3			Draft the outline of the first issue	2026-11-01
+old-blog	Old blog migration	web	paused	70	3	~/code/old-blog	https://blog.example.com	Move the last 12 posts	2026-08-02	Parked: kept here but hidden from the dashboard	x
+
+# Research: conclusions worth remembering
+static-gen-study	Static site generators compared	research	done	100	2	~/notes/static-gen-study		Reuse the build setup for the bakery site	2026-10-05	Plain templates beat heavy frameworks under 20 pages
